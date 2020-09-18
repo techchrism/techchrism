@@ -31,7 +31,8 @@ async function generateReadme()
         'daily_scrobbles': Math.floor(scrobbles / 7),
         'coding_weekly_total': wakatimeData['human_readable_total'],
         'coding_daily_average': wakatimeData['human_readable_daily_average'],
-        'coding_top_language': wakatimeData['languages'][0].name
+        'coding_top_language': wakatimeData['languages'][0].name,
+        'coding_top_language_time': wakatimeData['languages'][0].text
     }));
 }
 
