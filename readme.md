@@ -1,13 +1,14 @@
 <p float="left">
 <img src='pic.jpg' width='250' align="left">
 <p float="left">
-👋 Hey there! I'm Chris Miller
+👋 Hey there! I'm Chris
 
 I really enjoy making new and unique things whenever I get a good idea.
 My favorite things to make are websites, Minecraft server plugins, Discord bots, and shenanigans.
 
-🎧 This week I've listened to 411 songs with an average of 58 per day<br>
-💻 I've coded for 5 hrs 11 mins (1 hr 43 mins daily) with my top language this week being Kotlin
+🎧 This week I've listened to 416 songs with an average of 59 songs per day<br>
+💻 I've coded for 8 hrs 41 mins (2 hrs 10 mins daily)<br>
+📊 My top language this week is Kotlin which I've spent 4 hrs 29 mins in
 
 Website: [https://techchrism.me](https://techchrism.me)<br>
 Email: [chris@techchrism.me](mailto:chris@techchrism.me)<br>
