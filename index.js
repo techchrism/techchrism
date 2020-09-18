@@ -26,7 +26,7 @@ async function generateReadme()
     const scrobbles = await loadLastFMWeeklyScrobbles(process.env['LASTFM_USERNAME']);
     const wakatimeData = await loadWakatimeData(process.env['WAKATIME_API_KEY']);
     
-    await fs.writeFile('readme.md', Mustache.render(await fs.readFile('template.md', 'utf8'), {
+    await fs.writeFile('./readme.md', Mustache.render(await fs.readFile('./template.md', 'utf8'), {
         'weekly_scrobbles': scrobbles,
         'daily_scrobbles': Math.floor(scrobbles / 7),
         'coding_weekly_total': wakatimeData['human_readable_total'],
@@ -35,4 +35,8 @@ async function generateReadme()
     }));
 }
 
-generateReadme();
+console.log('Generating README...');
+generateReadme().then(() =>
+{
+    console.log('Done!');
+});
