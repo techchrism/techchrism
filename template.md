@@ -6,7 +6,7 @@
 I really enjoy making new and unique things whenever I get a good idea.
 My favorite things to make are websites, Minecraft server plugins, Discord bots, and shenanigans.
 
-🎧 This week I've listened to {{weekly_scrobbles}} songs with an average of {{daily_scrobbles}} songs per day<br>
+🎧 This week I've listened to {{weekly_scrobbles}} tracks with an average of {{daily_scrobbles}} tracks per day<br>
 💻 I've coded for {{coding_weekly_total}} ({{coding_daily_average}} daily)<br>
 📊 My top language this week is {{coding_top_language}} which I've spent {{coding_top_language_time}} in
 
