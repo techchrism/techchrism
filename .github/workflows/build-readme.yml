@@ -28,6 +28,7 @@ jobs:
           LASTFM_USERNAME: ${{secrets.LASTFM_USERNAME}}
           WAKATIME_API_KEY: ${{secrets.WAKATIME_API_KEY}}
       - name: Push new README.md
-        uses: mikeal/publish-to-github-action@trunk
+        uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          BRANCH_NAME: trunk
