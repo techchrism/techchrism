@@ -9,7 +9,7 @@ async function loadLastFMWeeklyScrobbles(username)
     // This is a terrible way of doing things but in my defense, I glanced at the LastFM api docs and
     // nothing looked like it did what I wanted it to
     const matches = (/<h2 class="metadata-title">Scrobbles<\/h2>\s*?\n?\s*?<p class="metadata-display">(\d+)<\/p>/g).exec(text);
-    return matches[1];
+    return matches === null ? 0 : matches[1];
 }
 
 async function loadWakatimeData(apiKey)
