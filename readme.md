@@ -6,8 +6,8 @@
 I really enjoy making new and unique things whenever I get a good idea.
 My favorite things to make are websites, Minecraft server plugins, Discord bots, and shenanigans.
 
-🎧 This week I've listened to 187 tracks with an average of 26 tracks per day<br>
-💻 I've coded for 12 hrs 54 mins (1 hr 50 mins daily)<br>
+🎧 This week I've listened to 201 tracks with an average of 28 tracks per day<br>
+💻 I've coded for 13 hrs 1 min (1 hr 51 mins daily)<br>
 📊 My top language this week is Java which I've spent 7 hrs 12 mins in
 
 Website: [https://techchrism.me](https://techchrism.me)<br>
